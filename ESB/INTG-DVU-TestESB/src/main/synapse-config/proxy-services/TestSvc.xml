@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <proxy name="TestSvc" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
 
     <target>
-
         <inSequence>
-
             <log>
-
                 <property value="Inside Test Service" name="Test Service"/>
-
+                <property value="Inside Test Service from Branch" name="Test Service from Branch"/>
             </log>
-
             <respond/>
         </inSequence>
-
         <outSequence/>
-
         <faultSequence/>
-
     </target>
-
 </proxy>
