@@ -5,6 +5,7 @@
             <log>
                 <property value="Inside Test Service" name="Test Service"/>
                 <property value="Inside Test Service from Branch" name="Test Service from Branch"/>
+                <property value="Inside Test Service from Master Branch" name="Test Service from Master Branch"/>
             </log>
             <respond/>
         </inSequence>
